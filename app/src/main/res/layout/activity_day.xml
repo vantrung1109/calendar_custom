@@ -1,0 +1,353 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="@dimen/_50sdp"
+            style="@style/HourTextViewStyle2"
+            />
+        <View
+            android:layout_width="@dimen/_1sdp"
+            android:layout_height="match_parent"
+            android:background="#E0E0E0"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcv_staffs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <!-- Time Slots Column -->
+            <LinearLayout
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#FFFFFF">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="00:00"
+                    style="@style/HourTextViewStyle1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="00:30"
+                    style="@style/HourTextViewStyle2"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="01:00"
+                    style="@style/HourTextViewStyle1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="01:30"
+                    style="@style/HourTextViewStyle2"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="02:00"
+                    style="@style/HourTextViewStyle1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="02:30"
+                    style="@style/HourTextViewStyle2"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="03:00"
+                    style="@style/HourTextViewStyle1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="03:30"
+                    style="@style/HourTextViewStyle2"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="04:00"
+                    style="@style/HourTextViewStyle1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="04:30"
+                    style="@style/HourTextViewStyle2"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="05:00"
+                    style="@style/HourTextViewStyle1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="05:30"
+                    style="@style/HourTextViewStyle2"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="06:00"
+                    style="@style/HourTextViewStyle1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="06:30"
+                    style="@style/HourTextViewStyle2"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="07:00"
+                    style="@style/HourTextViewStyle1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="07:30"
+                    style="@style/HourTextViewStyle2"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="08:00"
+                    style="@style/HourTextViewStyle1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="08:30"
+                    style="@style/HourTextViewStyle2"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="09:00"
+                    style="@style/HourTextViewStyle1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="09:30"
+                    style="@style/HourTextViewStyle2"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="10:00"
+                    style="@style/HourTextViewStyle1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="10:30"
+                    style="@style/HourTextViewStyle2"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="11:00"
+                    style="@style/HourTextViewStyle1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="11:30"
+                    style="@style/HourTextViewStyle2"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="12:00"
+                    style="@style/HourTextViewStyle1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="12:30"
+                    style="@style/HourTextViewStyle2"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="13:00"
+                    style="@style/HourTextViewStyle1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="13:30"
+                    style="@style/HourTextViewStyle2"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="14:00"
+                    style="@style/HourTextViewStyle1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="14:30"
+                    style="@style/HourTextViewStyle2"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="15:00"
+                    style="@style/HourTextViewStyle1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="15:30"
+                    style="@style/HourTextViewStyle2"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="16:00"
+                    style="@style/HourTextViewStyle1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="16:30"
+                    style="@style/HourTextViewStyle2"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="17:00"
+                    style="@style/HourTextViewStyle1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="17:30"
+                    style="@style/HourTextViewStyle2"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="18:00"
+                    style="@style/HourTextViewStyle1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="18:30"
+                    style="@style/HourTextViewStyle2"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="19:00"
+                    style="@style/HourTextViewStyle1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="19:30"
+                    style="@style/HourTextViewStyle2"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="20:00"
+                    style="@style/HourTextViewStyle1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="20:30"
+                    style="@style/HourTextViewStyle2"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="21:00"
+                    style="@style/HourTextViewStyle1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="21:30"
+                    style="@style/HourTextViewStyle2"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="22:00"
+                    style="@style/HourTextViewStyle1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="22:30"
+                    style="@style/HourTextViewStyle2"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="23:00"
+                    style="@style/HourTextViewStyle1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="23:30"
+                    style="@style/HourTextViewStyle2"
+                    />
+
+            </LinearLayout>
+
+            <!-- Vertical Divider -->
+            <View
+                android:layout_width="@dimen/_1sdp"
+                android:layout_height="match_parent"
+                android:background="#E0E0E0"/>
+
+            <!-- Calendar Grid -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rcv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

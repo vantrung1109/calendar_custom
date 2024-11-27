@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Top Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#E0E0E0" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:background="#E0E0E0" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#E0E0E0" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_gravity="bottom"
+        android:background="#E0E0E0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/cellDayText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:text="1" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcvEvents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            />
+    </LinearLayout>
+
+</FrameLayout>

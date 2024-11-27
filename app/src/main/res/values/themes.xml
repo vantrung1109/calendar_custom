@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GoogleCalendarCustom" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.GoogleCalendarCustom" parent="Base.Theme.GoogleCalendarCustom" />
+
+    <style name="HourTextViewStyle1">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:padding">@dimen/_6sdp</item>
+        <item name="android:layout_height">@dimen/_30sdp</item>
+
+    </style>
+
+    <style name="HourTextViewStyle2">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:background">#F5F5F5</item>
+        <item name="android:padding">@dimen/_6sdp</item>
+        <item name="android:layout_height">@dimen/_30sdp</item>
+    </style>
+
+</resources>

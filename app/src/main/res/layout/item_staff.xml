@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_100sdp"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="@dimen/_1sdp"
+    >
+    <!-- Staff Name Header -->
+    <TextView
+        android:id="@+id/tv_staff_name"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="@dimen/_30sdp"
+        android:gravity="center"
+        android:padding="@dimen/_8sdp"
+        android:background="#F5F5F5"
+        android:textStyle="bold"
+        android:fontFamily="@font/lato_bold"
+        android:textSize="@dimen/_10ssp"
+        />
+    <!-- Right Divider -->
+    <View
+        android:layout_width="@dimen/_1sdp"
+        android:layout_height="match_parent"
+        android:background="#E0E0E0" />
+</LinearLayout>
